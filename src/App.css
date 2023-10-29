@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+#root {
+  position: relative;
+  padding: 0px 24px;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.MuiPaper-elevation {
+  position: absolute;
+  bottom: 0;
+  height: 40px !important;
+  width: 100%;
+}
+
+.ImageStepper {
+  position: relative;
+}
+
+.sample-container {
+  width: calc(476px);
+  height: calc( 268px);
+}
+
+.sample-canvas {
+  height: 100%;
+}
+
+.btn-controller {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  border-width: 01px;
+  border-style: solid;
+  border-color: #1976d2;
+  border-radius: 5px;
+}
+
+.btn-controller button {
+  color: #1976d2;
+}
+
+.lower-canvas {
+  border-radius: 5px;
+}
+
+.blur {
+  filter: blur(1px);
+}
+
+.hand {
+  position: absolute;
+  z-index: 500;
+  height: 100px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.9;
+}
+
+.display-none {
+  display: none;
+}
